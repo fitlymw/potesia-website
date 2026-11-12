@@ -1,0 +1,6 @@
+{
+  "rewrites": [
+    { "source": "/games/:path+", "destination": "https://potesia-games.vercel.app/games/:path+" },
+    { "source": "/(.*)", "destination": "/index.html" }
+  ]
+}
